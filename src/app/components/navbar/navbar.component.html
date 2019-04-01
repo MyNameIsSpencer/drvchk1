@@ -1,0 +1,43 @@
+
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a [routerLink]="['/splash']">Get to Know Us</a>
+    <a [routerLink]="['/splash']">Services</a>
+    <a [routerLink]="['/splash']">Industries</a>
+    <a [routerLink]="['/splash']">Resources</a>
+    <a [routerLink]="['/splash']">Blog</a>
+    <a [routerLink]="['/splash']">News</a>
+    <a [routerLink]="['/splash']">Locations</a>
+    <a [routerLink]="['/splash']">Contact Us</a>
+
+  </div>
+</div>
+
+
+
+
+<nav>
+  <div class="nav-wrapper">
+    <div class="container">
+      <a class="brand-logo" [routerLink]="['']">Auth App</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li *ngIf="isLoginRoute">
+          <a [routerLink]="['']">Login</a>
+        </li>
+        <li *ngIf="!isLoginRoute">
+          <a [routerLink]="['/register']">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<p>
+  navbar works!
+</p>
