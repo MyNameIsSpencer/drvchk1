@@ -16,13 +16,13 @@ $colors: (
 // ;
 //
 //
-// $desktop: 840px;
-//
-// @mixin desktop {
-//   @media (min-width: #{$desktop}) {
-//     @content;
-//   }
-// }
+$desktop: 840px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
 // (red, yellow 10%, green 20%);
 
 
@@ -80,5 +80,9 @@ $colors: (
 
   img {
     margin-right: 10vw;
+  }
+
+  @include desktop {
+    display: none;
   }
 }
