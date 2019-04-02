@@ -1,2 +1,16 @@
 // @import '../node_modules/bootstrap/scss/bootstrap';
 // @import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+h1, h2, h3, p {
+  font-family: sans-serif;
+}
+
+.div-wrapper {
+  margin: 50px 15px 40px 15px;
+  padding: 10px;
+  background-color: white;
+}
+
+.titler {
+  color: grey;
+}

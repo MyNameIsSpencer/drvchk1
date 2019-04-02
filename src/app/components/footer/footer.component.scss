@@ -1,0 +1,23 @@
+.foot-nav-contaier {
+  margin-left: calc(50vw - 100px);
+  // calc(25% - 5px);
+  margin-bottom: 10px;
+
+  img {
+    margin-right: 25px;
+  }
+}
+
+#copyright-div {
+  margin-left: calc(50vw - 175px);
+  width: 350px;
+  text-align: center;
+  margin-bottom: 30px;
+
+  p {
+    font-size: 12px;
+    color: grey;
+  }
+}
+
+// 30px wide image

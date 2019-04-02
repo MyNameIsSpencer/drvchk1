@@ -8,6 +8,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SplashComponent } from './components/splash/splash.component';
 import { ServicesComponentComponent } from './components/services-component/services-component.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { GetToKnowComponent } from './components/get-to-know/get-to-know.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { BlogComponent } from './components/blog/blog.component';
     NavbarComponent,
     SplashComponent,
     ServicesComponentComponent,
-    BlogComponent
+    BlogComponent,
+    FooterComponent,
+    GetToKnowComponent
   ],
   imports: [
     BrowserModule,
