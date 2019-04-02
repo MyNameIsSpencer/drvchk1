@@ -1,25 +1,32 @@
-
-<h2>Hoverable Dropdown</h2>
-<p>Move the mouse over the button to open the dropdown menu.</p>
-
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a [routerLink]="['/splash']">Get to Know Us</a>
-    <a [routerLink]="['/splash']">Services</a>
-    <a [routerLink]="['/splash']">Industries</a>
-    <a [routerLink]="['/splash']">Resources</a>
-    <a [routerLink]="['/splash']">Blog</a>
-    <a [routerLink]="['/splash']">News</a>
-    <a [routerLink]="['/splash']">Locations</a>
-    <a [routerLink]="['/splash']">Contact Us</a>
-
+<div id="nav-wrapper">
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a [routerLink]="['/splash']">Get to Know Us</a>
+      <a [routerLink]="['/splash']">Services</a>
+      <a [routerLink]="['/splash']">Industries</a>
+      <a [routerLink]="['/splash']">Resources</a>
+      <a [routerLink]="['/splash']">Blog</a>
+      <a [routerLink]="['/splash']">News</a>
+      <a [routerLink]="['/splash']">Locations</a>
+      <a [routerLink]="['/splash']">Contact Us</a>
+    </div>
   </div>
 </div>
 
 
+<!-- <select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select> -->
 
 
+
+
+
+<!--
 <nav>
   <div class="nav-wrapper">
     <div class="container">
@@ -40,4 +47,4 @@
 
 <p>
   navbar works!
-</p>
+</p> -->
