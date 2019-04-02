@@ -7,13 +7,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SplashComponent } from './components/splash/splash.component';
 import { ServicesComponentComponent } from './components/services-component/services-component.component';
+import { BlogComponent } from './components/blog/blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SplashComponent,
-    ServicesComponentComponent
+    ServicesComponentComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
