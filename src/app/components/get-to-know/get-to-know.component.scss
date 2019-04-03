@@ -1,0 +1,25 @@
+$desktop: 840px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+.bigwindow {
+  display: none;
+
+  img {
+    width: 100%;
+  }
+
+  @include desktop {
+    display: block
+  }
+}
+
+.smallwindow {
+  @include desktop {
+    display: none;
+  }
+}
